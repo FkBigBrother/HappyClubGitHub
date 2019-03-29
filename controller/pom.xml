@@ -32,9 +32,10 @@
             <scope>test</scope>
         </dependency>
         <!--模板引擎-->
+        <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf</artifactId>
         </dependency>
         <!--导入配置文件处理器-->
         <dependency>
