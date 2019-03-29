@@ -25,11 +25,6 @@
 
     <properties>
         <druid.version>1.1.14</druid.version>
-        <!--mybatis版本-->
-        <mybatis.version>3.4.6</mybatis.version>
-        <!--spring-boot整合mybatis所需jar-->
-        <mybatisspringboot.version>2.0.0</mybatisspringboot.version>
-        <mybatisgenertor.version>1.3.5</mybatisgenertor.version>
         <!--jackson-->
         <jackson.version>2.9.8</jackson.version>
         <commonsfileupload.version>1.3.2</commonsfileupload.version>
@@ -47,26 +42,11 @@
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatisspringboot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-core</artifactId>
-                <version>${mybatisgenertor.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
                 <version>${mybatis.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
